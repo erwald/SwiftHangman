@@ -81,7 +81,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
                     messageForUser = ""
                 }
                 
-                self.guessesLabel.text = self.guessesLabel.text?.stringByAppendingString("\(messageForUser)\n")
+                self.guessesLabel.text = "\(messageForUser)\n".stringByAppendingString(self.guessesLabel.text ?? "")
             })
             
             channel.on("new:state", callback: { message in
