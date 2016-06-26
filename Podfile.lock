@@ -1,0 +1,18 @@
+PODS:
+  - SnapKit (0.21.1)
+  - Starscream (1.0.2)
+  - SwiftPhoenixClient (0.3):
+    - Starscream (~> 1.0.0)
+
+DEPENDENCIES:
+  - SnapKit
+  - SwiftPhoenixClient
+
+SPEC CHECKSUMS:
+  SnapKit: bbad04cb016c7cead63965f16b00c09318d271ee
+  Starscream: 40e2c4c1c770d811f24116b8b7dbeb4542c56767
+  SwiftPhoenixClient: 38fe251807c83222a2586bde18fb420adc06a232
+
+PODFILE CHECKSUM: da1f989737f4796bbce57defa54e9ee92d647baf
+
+COCOAPODS: 1.0.1
